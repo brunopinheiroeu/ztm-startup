@@ -1,0 +1,52 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Josefin Slab", serif;
+
+  background: url(bg-full.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container {
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  height: 1.5rem;
+  font-size: 3rem;
+  color: #4a2674;
+  font-weight: 600;
+  font-family: "Borel", cursive;
+  font-style: normal;
+}
+.buffer {
+  height: 5vw;
+}
+hr {
+  margin: 20px auto;
+  color: #e2c38a;
+  border: 3px solid #e2c38a;
+  max-width: 65px;
+  opacity: 1;
+}
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.btn-primary {
+  background-color: #8653c0;
+  border: solid 1px #45216a;
+  max-width: 250px;
+}
+.btn-primary:hover {
+  background-color: #45216a;
+  border: solid 1px #4a2674;
+}
+.btn-xl {
+  padding: 1rem 2rem;
+}
+/* font-family: "Borel", cursive; */
+/* font-family: "Josefin Slab", serif; */
